@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cool weather app</title>
+
+</head>
+
+<body>
+    <nav><span>weather app</span> </nav>
+    <div class="search-box">
+        <form>
+            <label for="search"></label>
+            <input type="text" name="search" id="search-input">
+            <label for="search-button"></label>
+            <input type="submit" value="search" id="search">
+        </form>
+
+    </div>
+    <div class="card w3-hover-shadow">
+
+        <div class="card-head ">
+            <div class="locations">
+                <h2 id="city"></h2>
+                <h3 id="country"></h3>
+
+            </div>
+            <div class="temp-description">
+                <span id="temp-description"></span>
+            </div>
+        </div>
+        <div class="card-body">
+            <span id="temp"></span>
+
+        </div>
+    </div>
+
+
+    <div class="temp-footer">
+        <span> celsius/farenheit</span>
+        <div class="switch">
+
+            <input id="switch-1" type="checkbox" class="switch-input" />
+            <label for="switch-1" class="switch-label"></label>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
