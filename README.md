@@ -6,7 +6,7 @@
 [![MIT License][license-shield]][license-url]
 
 # Weather APP (js project)
-<br />
+<br/>
 <p align="center">
   <a href="https://www.microverse.org/">
     <img src="src/asset/microverse.png" alt="Logo" width="80" height="80">
