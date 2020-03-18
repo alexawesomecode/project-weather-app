@@ -21,19 +21,19 @@
   </h3>
 
   <p align="center">
- A Weather App Project for Microverse. Its also part of the <a href="https://www.theodinproject.com/courses/ruby-on-rails/lessons/final-project">Odin project curriculum.</a>
+ A Weather App Project for Microverse. Its also part of the Odin project curriculum.</a>
     <br />
 
   </p>
 </p>
 
-## Project A Tic Tac Toe Game App
+## Project 'Weather App'
 
-This is a Tic Tac Toe Game App where you play against an opponent takimg turns on a board. By alternately placing 'X' and 'O' on the board.A winner emerges when a player successfully plaxes the same mark either an 'X' or 'O' on the same row, column or diagonal section of the board
+A project app built with Javascipt. You can look for cities and get the weather. You can also toggle between Celcius and Farenheit.
 
 
 ## Snapshot
-<img src="src/asset/snapshot.gif" alt="screenshot" width="800" height="500">
+<img src="src/asset/snapshot.jpg" alt="screenshot" width="800" height="500">
 
 
 # Validations
@@ -42,7 +42,7 @@ This is a Tic Tac Toe Game App where you play against an opponent takimg turns o
 
 # Get Started
 
-Download or clone this [repo here](https://github.com/alexawesomecode/project-js-tic-tac-toe) and open the 'index.html. file.
+Download or clone this [repo here](https://github.com/alexawesomecode/project-weather-app) and open the 'index.html. file.
 
 # Built With
 
@@ -53,14 +53,6 @@ This project was built with these techologies:
 * CSS3
 
 # Authors
-
-**Michgolden Ukeje**
-
-- Github: [@mikenath223](https://github.com/mikenath223)
-- Twitter: [@Michgolden_Nath](https://twitter.com/Michgolden_Nath)
-- Linkedin: [Ukeje Michgolden](https://https://www.linkedin.com/in/michgoldenukeje/)
-<br />
-<br />
 
 **Alejandro Andres**
 
@@ -79,13 +71,13 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/alexawesomecode/project-js-tic-tac-toe.svg?style=flat-square
-[contributors-url]: https://github.com/alexawesomecode/project-js-tic-tac-toe/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alexawesomecode/project-js-tic-tac-toe
-[forks-url]: https://github.com/alexawesomecode/project-js-tic-tac-toe/network/members
-[stars-shield]: https://img.shields.io/github/stars/alexawesomecode/project-js-tic-tac-toe
-[stars-url]: https://github.com/alexawesomecode/project-js-tic-tac-toe/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alexawesomecode/project-js-tic-tac-toe
-[issues-url]: https://github.com/alexawesomecode/project-js-tic-tac-toe/issues
-[license-shield]: https://img.shields.io/github/license/alexawesomecode/project-js-tic-tac-toe
-[license-url]: https://github.com/alexawesomecode/project-js-tic-tac-toe/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/alexawesomecode/project-weather-app.svg?style=flat-square
+[contributors-url]: https://github.com/alexawesomecode/project-weather-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alexawesomecode/project-weather-app
+[forks-url]: https://github.com/alexawesomecode/project-weather-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/alexawesomecode/project-weather-app
+[stars-url]: https://github.com/alexawesomecode/project-weather-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alexawesomecode/project-weather-app
+[issues-url]: https://github.com/alexawesomecode/project-weather-app/issues
+[license-shield]: https://img.shields.io/github/license/alexawesomecode/project-weather-app
+[license-url]: https://github.com/alexawesomecode/project-weather-app/blob/master/LICENSE.txt
