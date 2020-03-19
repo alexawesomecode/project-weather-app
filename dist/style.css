@@ -1,0 +1,180 @@
+body {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(225deg, rgba(79, 58, 180, 1) 0%, rgba(253, 29, 175, 1) 50%, rgba(255, 1, 1, 1) 100%);
+    ;
+    height: 100vh;
+    width: 100vw;
+}
+
+body>* {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+nav>span {
+    font-size: 27px;
+    letter-spacing: 2px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background: yellow;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    opacity: 0;
+}
+
+form {
+    width: 60%;
+    margin: 23px auto;
+    text-align: center;
+}
+
+#search-input {
+    border: none;
+    border-bottom: 3px solid black;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+#search {
+    border: none;
+    padding: 14px;
+    margin: 0 6px;
+    background: yellow;
+    font-weight: bold;
+}
+
+.card-body {
+    flex-basis: 70%;
+    background: black;
+    padding: 13%;
+    text-align: center;
+    background-size: cover;
+    opacity: 0.8
+}
+
+.card-head {
+    text-align: center;
+    background: whitesmoke;
+    padding: 7%;
+}
+
+h2 {
+    background: yellow;
+    padding: 2px;
+}
+
+#temp {
+    font-size: 35px;
+    font-weight: bold;
+    flex: 3;
+    color: black;
+    padding: 5px;
+}
+
+.change-temp {
+    flex-direction: row;
+    flex: 1;
+    justify-content: end;
+}
+
+#checkbox-temp input {
+    width: 38px;
+    border-radius: 11px;
+}
+
+#checkbox-temp input::after {
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    transform: translateX(1px);
+}
+
+#checkbox-temp {
+    border: none;
+    border-radius: 20px;
+}
+
+.temp-footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 11px 11px;
+}
+
+.temp-footer>span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-label {
+    display: block;
+    width: 75px;
+    height: 30px;
+    text-indent: -150%;
+    clip: rect(0 0 0 0);
+    color: transparent;
+    user-select: none;
+}
+
+.switch-label::before,
+.switch-label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.switch-label::before {
+    width: 100%;
+    height: 100%;
+    background-color: deeppink;
+    border-radius: 99em;
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.3s ease;
+}
+
+.switch-label::after {
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+    -webkit-transition: left 0.25s ease;
+    transition: left 0.25s ease;
+}
+
+.switch-input:checked+.switch-label::before {
+    background-color: yellow;
+}
+
+.switch-input:checked+.switch-label::after {
+    left: 48px;
+}
