@@ -5,7 +5,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-# Weather APP (js project)
 <br/>
 <p align="center">
   <a href="https://www.microverse.org/">
@@ -13,7 +12,7 @@
   </a>
 
   <h3 align="center">
-    A project from the Microverse Javascript Curriculum
+	Weather JS APP
   </h3>
 
   <h3 align="center">
@@ -21,15 +20,16 @@
   </h3>
 
   <p align="center">
- A Weather App Project for Microverse. Its also part of the Odin project curriculum.</a>
     <br />
 
   </p>
 </p>
 
-## Project 'Weather App'
+## Project
 
-A project app built with Javascipt. You can look for cities and get the weather. You can also toggle between Celcius and Farenheit.
+A weather app built with Javascipt. You can look for cities and get the weather. You can also toggle between Celcius and Farenheit.
+
+It uses OpenWeather API and cool CSS transitions for the background. 
 
 
 ## Snapshot
